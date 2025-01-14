@@ -67,9 +67,17 @@ dependencies {
 
     coreLibraryDesugaring(libs.desugar.jdk.libs)
 
+    // Koin
     implementation(libs.bundles.koin)
 
+    // Ktor
     implementation(libs.bundles.ktor)
+
+    // navigation
+    implementation(libs.androidx.navigation.compose)
+
+    // Serialization
+    implementation(libs.kotlinx.serialization.json)
 
     testImplementation(libs.junit)
 
